@@ -27,7 +27,7 @@ See [Taiga.io](https://tree.taiga.io/project/monogrammbot-monogrammerpnext_ocr/ 
 Install tesseract-ocr, plus imagemagick and ghostscript (to work with pdf files) using this command on Debian:
 
 ```sh
-sudo apt-get install tesseract-ocr imagemagick libmagickwand-dev ghostscript libleptonica-dev
+sudo apt-get install tesseract-ocr imagemagick libmagickwand-dev ghostscript libtesseract-dev libleptonica-dev
 source frappe-bench/env/bin/activate
 pip3 install tesserocr
 ```
