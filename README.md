@@ -27,13 +27,15 @@ See [Taiga.io](https://tree.taiga.io/project/monogrammbot-monogrammerpnext_ocr/ 
 Install tesseract-ocr, plus imagemagick and ghostscript (to work with pdf files) using this command on Debian:
 
 ```sh
-sudo apt-get install tesseract-ocr imagemagick libmagickwand-dev ghostscript
+sudo apt-get install tesseract-ocr imagemagick libmagickwand-dev ghostscript libleptonica-dev
+source frappe-bench/env/bin/activate
+pip3 install tesserocr
 ```
 
 ### Install Frappe application
 
 ```sh
-bench get-app --branch develop erpnext_ocr https://github.com/Monogramm/erpnext_ocr
+bench get-app erpnext_ocr https://github.com/yuntan0/erpnext_ocr
 bench install-app erpnext_ocr
 ```
 
