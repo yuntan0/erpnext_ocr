@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Copyright (c) 2018, John Vincent Fiel and contributors
-# Copyright (c) 2021, Monogramm and Contributors
+# Copyright (c) 2020, Monogramm and Contributors
 # For license information, please see license.txt
 
 from __future__ import unicode_literals
@@ -49,10 +49,12 @@ class OCRRead(Document):
         self.read_result = None
         self.read_time = None
         super(OCRRead, self).__init__(*args, **kwargs)
-
+        
+    @frappe.whitelist()
     def read_image(self):
         return read_ocr(self)
 
+    @frappe.whitelist()
     def read_image_bg(self, is_async=True, now=False):
         return frappe.enqueue("erpnext_ocr.erpnext_ocr.doctype.ocr_read.ocr_read.read_ocr",
                               queue="long", timeout=1500, is_async=is_async,
