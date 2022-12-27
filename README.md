@@ -30,6 +30,8 @@ Install tesseract-ocr, plus imagemagick and ghostscript (to work with pdf files)
 sudo apt-get install tesseract-ocr imagemagick libmagickwand-dev ghostscript libtesseract-dev libleptonica-dev
 source frappe-bench/env/bin/activate
 pip3 install tesserocr
+
+sudo apt-get install tesseract-ocr-kor
 ```
 
 ### Install Frappe application
