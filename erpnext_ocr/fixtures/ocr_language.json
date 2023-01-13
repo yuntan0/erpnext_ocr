@@ -3,132 +3,120 @@
   "code": "eng",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "Yes",
   "lang": "en",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "eng",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "fra",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "fr",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "fra",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "deu",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "de",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "deu",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "ita",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "it",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "ita",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "spa",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "es",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "spa",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "por",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "pt",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "por",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "tur",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "tr",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "tur",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "nld",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "nl",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "nld",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "rus",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "ru",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "rus",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "vie",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "vi",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "vie",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "kor",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "ko",
   "modified": "2019-08-17 04:19:02.882550",
   "name": "kor",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  },
  {
   "code": "jpn",
   "docstatus": 0,
   "doctype": "OCR Language",
+  "is_supported": "No",
   "lang": "ja",
   "modified": "2019-08-17 03:14:15.926535",
   "name": "jpn",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null
+  "type_of_ocr": null
  }
 ]
