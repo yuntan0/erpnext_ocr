@@ -103,7 +103,7 @@
   "code": "kor",
   "docstatus": 0,
   "doctype": "OCR Language",
-  "is_supported": "No",
+  "is_supported": "Yes",
   "lang": "ko",
   "modified": "2019-08-17 04:19:02.882550",
   "name": "kor",

@@ -25,8 +25,7 @@ def generate_child_doctype(doctype_import_link, string_raw_table_value, table_do
     :param table_doc:
     :return:
     """
-    ocr_import_table = frappe.get_doc("OCR Import",
-                                      doctype_import_link)
+    ocr_import_table = frappe.get_doc("OCR Import",doctype_import_link)
     for table_field in ocr_import_table.mappings:
         found_field = find_field(table_field, string_raw_table_value)
         if found_field is not None:
